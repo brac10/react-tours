@@ -11,11 +11,12 @@
   position: relative;
   background: var(--primaryColor);
   transition: var(--mainTransition);
-
 }
 
 .img {
   transition: var(--mainTransition);
+  height: 320px;
+  width: 320px;
 }
 
 .img-container:hover .img {

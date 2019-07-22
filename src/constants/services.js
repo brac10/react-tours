@@ -11,12 +11,12 @@ export default [
   {
     icon: <FaWallet />,
     title: "saving money",
-    text: "High security safes installed in each room.",
+    text: "You must be, its all complementary.",
   },
   {
     icon: <FaTree />,
     title: "endless hiking",
-    text: "Ranked #1 in 'Santa Fe Trail' magazine for 2019.",
+    text: "Ranked #1 'Santa Fe Trail' magazine for 2019.",
   },
   {
     icon: <FaSocks />,
@@ -26,11 +26,11 @@ export default [
   {
     icon: <FaFootballBall />,
     title: "Sports",
-    text: "Large Screen TVs in all rooms",
+    text: "Large TVs",
   },
   {
     icon: <FaDog />,
-    title: "Pets",
-    text: "Dog Whisper on Site",
+    title: "Pet Friendly",
+    text: "Dog Whisperer on Site",
   },
 ]

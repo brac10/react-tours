@@ -5,10 +5,10 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  RangerPi - Tour of Duty
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58768946-b1c8-4f25-b1d9-b41012538458/deploy-status)](https://app.netlify.com/sites/rangerpi-tours/deploys)
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 

@@ -12,9 +12,9 @@ export default ({ data }) => (
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
-        title="Estates of Carrollton"
-        info=" Travel to some exotic and magical locations within the cities borders. Experience cuisines and fine dining from faraway locations like 'Farmers Branch' and 'Plano'.
-        Your destination awaits."
+        title="Lakes @ Carrollton"
+        info=" Travel to some exotic and magical venues within the cities borders. Experience the best in stay-cations serving up delicious cuisines, fine dining and family from from faraway locations like 'Farmers Branch' and 'Plano'.
+        Your fantasy destination awaits."
       >
         <Link to="/tours" className="btn-white">
           discover

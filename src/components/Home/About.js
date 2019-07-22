@@ -15,12 +15,14 @@ const About = () => {
         <article className={styles.aboutInfo}>
           <h4>explore the difference</h4>
           <p>
-            Basically its just us. If you're looking to taking it to the next
-            level, navigate to Plano and visit how the other half lives.
+            Basically its just us. If you're looking to taking your stay-cation
+            to the next level, a quick ride to Plano to visit how the other half
+            lives.
           </p>
           <p>
-            Looking for something out of state and our travel coordinators can
-            help with Kansas, Colorado and even Wyoming.
+            Looking for something out of this "state" ? Our booking and travel
+            coordinators can help with some amazing packages to Leavenworth
+            Kansas, Denver Colorado along with 4 wheel'n in Afton Wyoming.
           </p>
           <button type="button" className="btn-primary">
             read more
