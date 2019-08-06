@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import styles from "../css/single-blog.module.css"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-// import SEO from "../components/SEO"
+import SEO from "../components/SEO"
 
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 
@@ -50,7 +50,7 @@ const Blog = ({ data }) => {
   }
   return (
     <Layout>
-      {/* <SEO title={title} /> */}
+      <SEO title={title} />
       <section className={styles.blog}>
         <div className={styles.center}>
           <h1>{title}</h1>
