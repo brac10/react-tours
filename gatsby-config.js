@@ -4,11 +4,16 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `RangerPI-Tours`,
+    titleTemplate: "%s · Tours",
     description: `Kick off your next, Mission or Patrol.`,
     author: `@RangerPI`,
+    twitterUsername: "@Scott.Braconnier",
+    image: "/images/defaultBcg.jpeg",
+    siteUrl: "https://rangerpi.react-tours.netlify.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -18,6 +23,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-playground`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-transition-link`,
@@ -26,6 +32,14 @@ module.exports = {
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://rangerpi-react-tours.netlify.com",
+        sitemap: "https://rangerpi-react-tours.netlify.com/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
       },
     },
     {

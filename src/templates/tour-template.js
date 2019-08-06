@@ -1,11 +1,12 @@
 import React from "react"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { Link, graphql } from "gatsby"
 import StyledHero from "../components/StyledHero"
 import styles from "../css/template.module.css"
 import Img from "gatsby-image"
 import { FaMoneyBillWave, FaMap } from "react-icons/fa"
 import Day from "../components/SingleTour/Day"
+import SEO from "../components/SEO"
 
 const Template = ({ data }) => {
   const {
@@ -22,6 +23,7 @@ const Template = ({ data }) => {
 
   return (
     <Layout>
+      <SEO title={name} />
       <StyledHero img={mainImage.fluid} />
       <section className={styles.template}>
         <div className={styles.center}>

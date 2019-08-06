@@ -1,9 +1,9 @@
 import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
-import "./layout.css"
+import "./Layout.css"
 
-const layout = ({ children }) => {
+const Layout = ({ children }) => {
   return (
     <main>
       <Navbar />
@@ -12,4 +12,4 @@ const layout = ({ children }) => {
     </main>
   )
 }
-export default layout
+export default Layout
