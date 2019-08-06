@@ -6,7 +6,7 @@ import styles from "../css/template.module.css"
 import Img from "gatsby-image"
 import { FaMoneyBillWave, FaMap } from "react-icons/fa"
 import Day from "../components/SingleTour/Day"
-import SEO from "../components/SEO"
+import SEO from "../components/Seo"
 
 const Template = ({ data }) => {
   const {

@@ -5,7 +5,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import styles from "../css/blog.module.css"
 import BlogCard from "../components/Blog/BlogCard"
 import Title from "../components/Title"
-import SEO from "../components/SEO"
+import SEO from "../components/Seo"
 
 const BlogList = props => {
   const { currentPage, numPages } = props.pageContext

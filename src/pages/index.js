@@ -7,7 +7,7 @@ import Services from "../components/Home/Services"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import FeaturedTours from "../components/Home/FeaturedTours"
-import SEO from "../components/SEO"
+import SEO from "../components/Seo"
 
 export default ({ data }) => (
   <Layout>
